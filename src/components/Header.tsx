@@ -45,7 +45,7 @@ const Header = ({ title }: { title: string }) => {
 
   return (
     <header className=" fixed z-20 w-full bg-white  py-5 px-2 md:px-10">
-      <div className="flex space-x-6 md:justify-between pl-0 md:pl-72 ">
+      <div className="flex space-x-6 justify-between pl-0 md:pl-72 ">
         <div className="space-y-1">
           <p className="font-medium">{title}</p>
           <p className="text-grey">Today, {formattedDate}</p>
