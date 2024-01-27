@@ -1,4 +1,4 @@
-import { PaymentHistoryRow } from "../components/DashboardTable.types";
+import { PaymentHistoryRow } from "../components/Table/DashboardTable.types";
 
 export const PaymentHistory: PaymentHistoryRow[] = [
   {

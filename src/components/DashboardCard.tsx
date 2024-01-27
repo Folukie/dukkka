@@ -32,7 +32,7 @@ const DashboardCard = () => {
   )
   return (
     <div className="flex border rounded-lg w-max md:flex-row flex-col mt-24 md:mt-0">
-      <div className=" p-4 md:w-72 h-48 md:h-auto">
+      <div className=" p-4 w-72 h-48 md:h-auto">
         <div className="flex py-2 justify-between items-center">
           <p className="text-primary text-sm font-light">
             Total account balance
@@ -68,7 +68,7 @@ const DashboardCard = () => {
           </p>
         </div>
       </div>
-      <div className="bg-lightgrey rounded-lg h-48 md:h-auto p-4 md:w-72">
+      <div className="bg-lightgrey rounded-lg h-48 md:h-auto p-4 w-72">
         <div className="py-3 items-center">
           <p className="text-primary text-sm font-light">Funds on hold</p>
         </div>{' '}

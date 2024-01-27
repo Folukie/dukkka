@@ -1,6 +1,6 @@
 import React, { FC, ReactNode } from 'react'
-import SideNav from './SideNav'
-import Header from './Header'
+import SideNav from '../Navigations/SideNav'
+import Header from '../Navigations/Header'
 
 interface DashboardLayoutProps {
   children: ReactNode

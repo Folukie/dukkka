@@ -1,8 +1,13 @@
-import { GeneralNavigations, MainNavigations } from '../constants/navigation'
+import React from 'react'
+import { GeneralNavigations, MainNavigations } from '../../constants/navigation'
 
-const SideNav = () => {
+const MobileSideNav = ({ isOpen }: { isOpen: boolean }) => {
   return (
-    <nav className="hidden md:block bg-primary  px-6 z-20 h-screen min-h-full overflow-x-hidden overflow-y-auto w-64 py-8 ">
+    <nav
+      className={`bg-primary h-screen p-4 w-full left-0 block transition-all duration-300 transform ${
+        isOpen ? '-translate-x-0' : ''
+      }`}
+    >
       <div className="space-y-8">
         <img src="/images/dukka.svg" alt="dukka logo" />
         <div className="space-y-4 ">
@@ -41,4 +46,4 @@ const SideNav = () => {
   )
 }
 
-export default SideNav
+export default MobileSideNav

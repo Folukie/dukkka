@@ -1,6 +1,6 @@
 import React, { FC, useState } from 'react'
 import Table from './Table'
-import { PaymentHistory } from '../constants/table'
+import { PaymentHistory } from '../../constants/table'
 import { TableColumn } from 'react-data-table-component'
 import { PaymentHistoryRow } from './DashboardTable.types'
 
@@ -48,7 +48,7 @@ const DashboardTable: FC = () => {
             <img
               src="/images/search.svg"
               alt="search icon"
-              className="absolute top-3 right-3"
+              className="absolute top-3 right-10 md:right-3"
             />
           </div>
           <button

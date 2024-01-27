@@ -1,7 +1,7 @@
 import './App.css'
 import DashboardCard from './components/DashboardCard'
-import DashboardLayout from './components/DashboardLayout'
-import DashboardTable from './components/DashboardTable'
+import DashboardLayout from './components/Layouts/DashboardLayout'
+import DashboardTable from './components/Table/DashboardTable'
 
 function App() {
   return (
