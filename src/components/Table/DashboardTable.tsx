@@ -48,7 +48,7 @@ const DashboardTable: FC = () => {
             <img
               src="/images/search.svg"
               alt="search icon"
-              className="absolute top-3 right-10 md:right-3"
+              className="absolute top-3 right-14 md:right-3"
             />
           </div>
           <button
